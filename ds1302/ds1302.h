@@ -5,9 +5,9 @@
 
 #include <stdint.h>
 
-#define DS1302_SCLK_PIN   PB0
+#define DS1302_SCLK_PIN   PB2
 #define DS1302_IO_PIN     PB1
-#define DS1302_CE_PIN     PB2
+#define DS1302_CE_PIN     PB0
 
 struct Time {
    uint8_t sc;
